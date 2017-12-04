@@ -2,6 +2,11 @@ management:
   security:
     enabled: false 
 
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
+
 security:
   basic:
     enabled: false
